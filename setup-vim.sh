@@ -5,7 +5,7 @@ curl -so ~/.vim/autoload/pathogen.vim \
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/syntastic.git
 
-sudo pip install flake8
+sudo pip3 install flake8
 
 rm ~/.vimrc
 ln -s ~/.vim/vimrc ~/.vimrc
